@@ -10,5 +10,5 @@ You should NOT try to redefine any of the above variables.
 newID = 1000000000
 newID = oldID++
 ageIsValid==currentAge
-randomInteger=floor(randomNumber)
-randomUserId=randomInteger
+randomInteger=Math.floor(randomNumber)
+randomUserId=Math.random(randomInteger)
